@@ -2,6 +2,12 @@
 
 This project focuses on classifying electrocardiogram (ECG) signals into three categories: Normal Sinus Rhythm (NSR), Arrhythmia (ARR), and Congestive Heart Failure (CHF). The goal is to develop a machine learning model using feature engineering to distinguish between these categories based on ECG data. The steps involve preprocessing, R-peak detection, feature extraction, feature selection, and classification. 
 
+## Contributors
+Youmna Abboud, Diana Al Bazze
+
+This project was completed at **TU Delft** as part of the **Introduction to Machine Learning** course.
+
+
 ## Project Structure
 
 - **Introduction**: Overview of the problem, dataset, and methodology.
@@ -60,3 +66,24 @@ The models are trained on 70% of the data and evaluated on the remaining 30%.
 ### Performance Evaluation
 
 The models are evaluated based on their accuracy, and the confusion matrix is used to further analyze the performance. A heatmap of the confusion matrix is generated to visualize the misclassifications.
+
+## Results
+
+In this study, we trained and evaluated four different machine learning classifiers: Support Vector Machine (SVM), Perceptron, Softmax Regression, and Logistic Regression, on the extracted ECG features to classify the recordings into three categories: Normal Sinus Rhythm (NSR), Arrhythmia (ARR), and Congestive Heart Failure (CHF).
+
+### Performance Evaluation
+
+The models were trained on 70% of the dataset and tested on 30%. Accuracy was used as the primary evaluation metric, and a confusion matrix was generated to assess the performance of each model.
+
+The following are the accuracy scores for each classifier:
+
+- **SVM Accuracy**: 0.85
+- **Perceptron Accuracy**: 0.82
+- **Softmax Accuracy**: 0.87
+- **Logistic Regression Accuracy**: 0.88
+
+### Confusion Matrix
+
+A confusion matrix was computed for the best-performing classifier, Logistic Regression, to evaluate how well the model predicted each class. The matrix visualizes the number of true positive, false positive, true negative, and false negative predictions for each class.
+
+
